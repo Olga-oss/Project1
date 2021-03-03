@@ -2,6 +2,7 @@
 
 * {
 	font-family: 'Raleway', regular;   /*impoter  dossier raleway et deziper*/
+
 } 
 
 body {
@@ -19,9 +20,8 @@ body {
 
 }
 
-.con{
+.flexbox-align{
 	display: flex;
-
 }
 
 #img-reservia{
@@ -34,6 +34,7 @@ body {
 	padding-left: 0%;
 	height: 20px;
 	margin-top: 5px;
+
 	
 }
 
@@ -49,7 +50,7 @@ body {
 	border-top-right-radius:  25px;
 	border-bottom-right-radius: 25px;
 	width: 15%;
-	margin: 10px;
+	margin: 25px;
 	margin-left: 15px;
 }
 .par2{
@@ -63,6 +64,8 @@ body {
 	width: 20px;
 	text-align: center;
 }
+
+
 .search1{
     border: 1px solid #F2F2F2;
 	border-top-left-radius:  5px;
@@ -70,18 +73,13 @@ body {
 	border-top-right-radius:  5px;
 	border-bottom-right-radius: 5px;
 	width: 400px;
-	position: relative!important;
-    box-sizing: border-box;
+	
 	height: 40px;
     
 	border-right: none!important;
 	border-left: none!important;
 
-  
-
-    
-    
-    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,.13); */
+   
 }
 .search2{
 	
@@ -89,38 +87,31 @@ body {
 	border-right: none;
 	border-top-left-radius:  5px;
 	border-bottom-left-radius: 5px;
-	/* color: black!important; */
 	background-color: #F2F2F2;
 	width: 35px;
 	padding-left: 8px;
 	padding-right: 8px;
 
+    background-image: url(icones/location-solid.png);
     background-size: 18px; 
 	background-position: right;
     background-repeat: no-repeat; 
     background-position-x: 14px;
-    background-attachment:scroll;
-    background-image: url(icones/location-solid.png);
-	text-align: center;
+    
     
 
 
-
-
 }
+
 .search3{
-	padding-left: 7px;
-	border: 1px solid #F2F2F2;
-	border-left: none;
-	border-right: none;
 	border: none;
+	padding-left: 7px;
 	padding-right: 45px;
 }
 
 .search4{
 
 	width: 100px; 
-	margin-left: auto;
 	background-color: #0065FC;
 	border: 1px solid #0065FC;
 	border-left: none;
@@ -134,22 +125,14 @@ body {
 
 
 
-/* h2 {
-	color: #0065FC;
-} */
 
-img {
-	width: 60px;
-	height: 60px;
 
-}
 
 
 
 #logoetliens{
 	display: flex;
 	justify-content: space-between;
-
 }
 
 
@@ -158,10 +141,7 @@ nav ul{
 	list-style-type: none;
 	display: flex;
 
-	
-
-
-	}
+}
 
 nav li {
 	margin-right: 15px;
@@ -169,19 +149,6 @@ nav li {
 	
 }
 
-.boutonbleu{
-
-width: 100px; 
-margin-left: auto;
-background-color: #0065FC;
-border: 1px solid #0065FC;
-border-left: none;
-border-top-right-radius:  5px;
-border-bottom-right-radius: 5px;
-font-size: 0.7em;
-text-align: center;
-color: white;
-}
 
 i{
 	color: #0065FC;
@@ -192,12 +159,6 @@ nav p, a{
 	text-decoration: none;
 
 }
-
-/* #filtres{
-	display: flex;
-	flex-direction: column;
-}
- */
 
 
 
