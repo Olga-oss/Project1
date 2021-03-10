@@ -114,9 +114,9 @@ nav li {
 	color: white;
 }
 /* Color of text in input (Marseille, France) */
-:placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
 	color: black;
-	opacity: 1; /* Firefox */
+
 }
 
 
@@ -292,35 +292,5 @@ i{
 
 
 
-
-/* Color of text in input (Marseille, France) */
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: black;
-	opacity: 1; /* Firefox */
-}
-
-
-/*nav ul{
-	list-style-type: none;
-	display: flex;
-
-}*/
-
-/* Distance between nav items (Hébergements Activités S'inscrire) */
-/*nav li {
-	margin-left: 90px;
-}    
-*/
-
-/* Color of fontwesome icons */
-/*i{
-	color: #0065FC;
-} */
-
-/*nav p, a{
-	color: black;
-	text-decoration: none;
-
-}*/
 
 
