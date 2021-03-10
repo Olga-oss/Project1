@@ -10,55 +10,163 @@
 
 <body>
 
-
 	<header>
-		<div id="logoetliens" class="container">
-
+		<div class="container nav-bar">
 			<img src="images/logo/Reservia@3x.png" alt="logo" id="img-reservia">
-
-
-
 			<nav>
 				<ul>
-					<li><a href="#hébergements">Hébergements </a></li>
+					<li><a href="#hébergements" class="nav-active">Hébergements </a></li>
 					<!--plus tard mettre <h2 id="hébergements">Hébergements</h2> -->
-					<li><a href="#activités" s>Activités </a></li>
+					<li><a href="#activités">Activités </a></li>
 					<!--plus tard mettre <h2 id="activités">Activités</h2> -->
-					<li><a href="#">S'inscrire </a></li>
+					<li><a href="#" class="nav-active" style="font-weight: bold;">S'inscrire </a></li>
 				</ul>
 			</nav>
-
-
-		</div> <!--de "logietliens"-->
+		</div>
 
 
 		<div class="container">
-			<h2><strong>Trouvez votre hébergement pour des vacances de rêves</strong> </h2>
-			<p> En plein centre ville ou en pleine nature</p>
+			<h2 style="margin-bottom: 10px;">Trouvez votre hébergement pour des vacances de rêves</h2>
+			<p style="margin-bottom: 20px; margin-top: 0;"> En plein centre ville ou en pleine nature</p>
 			<form method="post" action="traitement.php">
-				<div class="flexbox-align search1">
-					<div class="search2"></div>
-					<input type="search" class="search3" placeholder="Marseille, France" size="25" maxlenght="20" />
-					<button href="#recherchez" class="search4">Recherchez </button>
+				<div class="flexbox search-box">
+					<div class="search-location"></div>
+					<input type="search" class="search-input" placeholder="Marseille, France" size="25"
+						maxlenght="20" />
+					<button href="#rechercher" class="search-button">Rechercher </button>
 				</div>
 			</form>
 		</div>
 
-		<div id="filters" class="container flexbox-align">
+		<div id="filters" class="container flexbox">
 			<p>Filtres</p>
-			<p class="par1"> <i class="fas fa-money-bill-wave par2"></i> <a href="pageEconomique.html">Economique </a>
-			</p>
-			<p class="par1"><i class="fas fa-child par2"></i> <a href="pageFamilial.html">Familial </a></p>
-			<p class="par1"> <i class="fas fa-heart par2"></i> <a href="pageRomantique.html">Romantique </a></p>
-			<p class="par1"> <i class="fas fa-dog par2"></i> <a href="pageAnimauxautorises">Animaux autorisés </a></p>
+			<p class="filter-box"> <i class="fas fa-money-bill-wave filter-icon"></i> <a class="filter-text"
+					href="pageEconomique.html">Economique </a></p>
+			<p class="filter-box"><i class="fas fa-child filter-icon"></i> <a class="filter-text"
+					href="pageFamilial.html">Familial </a></p>
+			<p class="filter-box"> <i class="fas fa-heart filter-icon"></i> <a class="filter-text"
+					href="pageRomantique.html">Romantique </a></p>
+			<p class="filter-box"> <i class="fas fa-dog filter-icon"></i> <a class="filter-text"
+					href="pageAnimauxautorises">Animaux autorisés </a></p>
 		</div>
 
 
-		<div class="container flexbox-align">
-			<a href="#" id="i-circle"> <i class="fas fa-info-circle"></i> </a>
-			<p id="note"> Plus de 500 logements sont dispnibles dans cette ville </p>
+		<div class="container flexbox">
+			<a href="#" id="i-circle">
+				<i id="i-circle-icon" class="fas fa-info"></i>
+				<!-- <i class="fas fa-info-circle"></i>  -->
+			</a>
+			<p> Plus de 500 logements sont dispnibles dans cette ville </p>
 		</div>
 
+		<div class="container flexbox">
+			<div class="container" id="div-box-one">
+				<!-- <div> -->
+				<h2 class="div-box-one-p1">Hébergements à
+					 Marseille</h2>
+				<ul id="small-list-one">
+					<li class="small-cards-row">
+						<div class="small-card-img-container">
+							<img src="images/hebergements/room-1.jpg" alt="room..."
+								class="small-card-row-img img-fix-top-1">
+
+						</div>
+						<h3 class="small-card-row-text">Auberge la Cannebière</h3>
+						<p class="small-card-row-text">Nuit à partir de <strong>25€</strong></p>
+						<div class="star-box">
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color"></span>
+						</div>
+					</li>
+					<li class="small-cards-row">
+						<div class="small-card-img-container">
+							<img src="images/hebergements/room-2.jpg" alt="room..."
+								class="small-card-row-img img-fix-top-2">
+
+						</div>
+						<h3 class="small-card-row-text">Hôtel du port</h3>
+						<p class="small-card-row-text">Nuit à partir de <strong>52€</strong></p>
+						<div class="star-box">
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+						</div>
+					</li>
+					<li class="small-cards-row">
+						<div class="small-card-img-container">
+							<img src="images/hebergements/room-3.jpg" alt="room..."
+								class="small-card-row-img img-fix-top-3">
+
+						</div>
+
+						<h3 class="small-card-row-text">Hôtel Les mouettes</h3>
+						<p class="small-card-row-text">Nuit à partir de <strong>75€</strong></p>
+						<div class="star-box">
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color"></span>
+						</div>
+					</li>
+					<li class="small-cards-row">
+						<div class="small-card-img-container">
+							<img src="images/hebergements/room-4.jpg" alt="room..."
+								class="small-card-row-img img-fix-top-4">
+						</div>
+						<h3 class="small-card-row-text">Hôtel de la mer</h3>
+						<p class="small-card-row-text">Nuit à partir de <strong>46€</strong></p>
+						<div class="star-box">
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color"></span>
+							<span class="fa fa-star star-color"></span>
+						</div>
+					</li>
+					<li class="small-cards-row">
+						<div class="small-card-img-container">
+							<img src="images/hebergements/room-5.jpg" alt="room..."
+								class="small-card-row-img img-fix-top-5">
+
+						</div>
+						<h3 class="small-card-row-text">Auberge Le Panier</h3>
+						<p class="small-card-row-text">Nuit à partir de <strong>23€</strong></p>
+						<div class="star-box">
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color"></span>
+						</div>
+					</li>
+					<li class="small-cards-row">
+						<div class="small-card-img-container">
+							<img src="images/hebergements/room-6.jpg" alt="room..."
+								class="small-card-row-img img-fix-top-6">
+
+						</div>
+						<h3 class="small-card-row-text">Hôtel chez Amina</h3>
+						<p class="small-card-row-text">Nuit à partir de <strong>96€</strong></p>
+						<div class="star-box">
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+							<span class="fa fa-star star-color star-checked"></span>
+						</div>
+					</li>
+				</ul>
+				<h3 id="div-box-one-p2">Afficher plus</h3>
+				<!-- </div> -->
+			</div>
+			<div id="div-box-two"></div>
+		</div>
 
 	</header>
 </body>
