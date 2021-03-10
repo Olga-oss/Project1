@@ -12,7 +12,7 @@ body {
 }
 
 /*Color of the text of nav,pa,a */
-nav p, a{
+nav p, a{ 
 	color: black;
 	text-decoration: none;
 
